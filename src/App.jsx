@@ -1,14 +1,16 @@
 import { useState } from 'react'
 import './App.css'
+import About from './components/About/About.jsx'
+import { DETAILS } from './data/Details.js'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <h1>Portfolio</h1>
+      <About details={DETAILS} />
     </>
   )
 }
 
 export default App
+
+

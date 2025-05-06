@@ -1,0 +1,31 @@
+#certificate {
+  background-color: #27292d;
+  color: #fff;
+  padding: 5rem 2rem;
+}
+
+.certificate-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.certificate-tile p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.certificate-tile:hover {
+  transform: scale(1.02);
+  box-shadow: #5ae921 0px 20px 20px -20px;
+}
+
+.card-style {
+  width: 100%;
+  color: white !important;
+}
+
+section {
+  padding: 2rem 0;
+}

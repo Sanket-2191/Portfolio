@@ -19,7 +19,13 @@ export const DETAILS = {
     },
   },
   profilephoto: "assets/images/sanket photo1.JPG",
-  role: ["Software Developer", 2000, "MERN Stack Developer", 2000],
+  role: [
+    "Software Developer",
+    "MERN Stack Developer",
+    "Frontend Developer",
+    "Backend Developer",
+    "Full-Stack Developer"
+  ],
   tag_line:
     "Knack of building applications with front and back end operations.",
   about_me: {

@@ -1,16 +1,14 @@
 import { useState } from 'react'
 import './App.css'
-import About from './components/About/About.jsx'
-import { DETAILS } from './data/Details.js'
+import Main from './components/Main/Main.jsx';
 
 function App() {
   return (
     <>
-      <About details={DETAILS} />
+      <Main />
     </>
-  )
+  );
 }
 
-export default App
-
+export default App;
 

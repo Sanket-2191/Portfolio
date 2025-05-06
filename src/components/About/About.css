@@ -8,15 +8,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 5rem 0;
+  padding: 5rem 2rem;
 }
-section {
-  padding: 2rem 0;
-}
-.profileImg{
+
+.profileImg {
   width: 200px;
-  aspect-ratio: inherit;
+  max-width: 80vw;
 }
+
+.about-text {
+  max-width: 600px;
+  text-align: center;
+}
+
 .about-card-style {
   width: 350px;
   height: 100%;
@@ -26,14 +30,10 @@ section {
 }
 
 .imgeffect img {
-  /* -webkit-filter: grayscale(100%); */
   filter: grayscale(100%);
-  -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
 
 .imgeffect:hover img {
-  -webkit-filter: grayscale(0);
   filter: grayscale(0);
 }
-

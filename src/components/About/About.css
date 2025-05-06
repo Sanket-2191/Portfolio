@@ -13,7 +13,10 @@
 section {
   padding: 2rem 0;
 }
-
+.profileImg{
+  width: 30vw;
+  height: 25vh;
+}
 .about-card-style {
   width: 350px;
   height: 100%;

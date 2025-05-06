@@ -12,7 +12,7 @@ function About(props) {
     <section id="about">
       <div className="flex justify-center items-center">
         <div className="flex justify-center items-center">
-          <div className="w-[30vw] h-[25vh]" >
+          <div className="profileImg" >
             <figure className="">
               <motion.img
                 initial={{ x: "-100vw" }}

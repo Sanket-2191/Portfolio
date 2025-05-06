@@ -35,11 +35,11 @@ function About(props) {
           >
             <h1>About</h1>
             <br />
-            <h5>{myProfileDetails?.about_me.para1 || "saknet"}</h5>
-            <p>{myProfileDetails?.about_me.para2 || "saknet"}</p>
-            <p>{myProfileDetails?.about_me.para3 || "saknet"}</p>
-            <p>{myProfileDetails?.about_me.para4 || "saknet"}</p>
-            <p>{myProfileDetails?.about_me.para5 || "saknet"}</p>
+            <h2>{myProfileDetails?.about_me.para1 || "saknet"}</h2>
+            <h4>{myProfileDetails?.about_me.para2 || "saknet"}</h4>
+            <h4>{myProfileDetails?.about_me.para3 || "saknet"}</h4>
+            <h4>{myProfileDetails?.about_me.para4 || "saknet"}</h4>
+            <h4>{myProfileDetails?.about_me.para5 || "saknet"}</h4>
           </motion.div>
         </div>
       </div>

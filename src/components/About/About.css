@@ -14,8 +14,8 @@ section {
   padding: 2rem 0;
 }
 .profileImg{
-  width: 30vw;
-  height: 25vh;
+  width: 200px;
+  aspect-ratio: inherit;
 }
 .about-card-style {
   width: 350px;
